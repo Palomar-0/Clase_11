@@ -72,6 +72,7 @@ body {
   flex-grow: 1;
 }
 
+
   .poppins-regular {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
@@ -102,44 +103,29 @@ table {
   color: #eae6f0;
 }
 
-nav {
-  margin: 1rem 0;  
+
+body.page-azul header,
+body.page-azul .navbar {
+  background-color: #1a237e !important; 
 }
 
-/* Botones del nav */
-nav a {
-  line-height: 1;
-  text-decoration: none;
-  color: white; /* texto blanco */
-  margin: 0 1rem 0 0;
-  padding: 0.5rem 1rem;
-  background-color: purple; /* botón principal */
-  border-radius: 0.6rem;
-  display: inline-block;
-  transition: background-color 0.3s ease, color 0.3s ease;
+body.page-azul main {
+  background-color: #283593; 
 }
 
-/* Hover */
-nav a:hover {
-  background-color: #4b0082; /* más oscuro al pasar el mouse */
-  color: white;
+body.page-azul .album {
+  background-color: #3949ab !important; 
 }
 
-/* Botón activo */
-nav a.active {
-  background-color: #5a23c8; /* color activo más oscuro */
-  opacity: 0.9;
-  color: white;
+body.page-azul footer {
+  background-color: #1a237e;
+  color: #e0e0e0;
 }
 
-/* Si quieres un botón secundario gris */
-nav a.btn-secondary-nav {
-  background-color: #6c757d;
+body.page-azul table {
+  color: #e0e0e0;
 }
 
-nav a.btn-secondary-nav:hover {
-  background-color: #5a6268;
-}
 
 
 
