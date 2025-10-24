@@ -104,27 +104,8 @@ table {
 }
 
 
-body.page-azul header,
-body.page-azul .navbar {
-  background-color: #1a237e !important; 
-}
 
-body.page-azul main {
-  background-color: #283593; 
-}
 
-body.page-azul .album {
-  background-color: #3949ab !important; 
-}
-
-body.page-azul footer {
-  background-color: #1a237e;
-  color: #e0e0e0;
-}
-
-body.page-azul table {
-  color: #e0e0e0;
-}
 
 
 
